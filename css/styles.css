@@ -1,0 +1,15 @@
+.bg-gradient1{
+    background: rgb(249,179,255);
+background: linear-gradient(0deg, rgba(249,179,255,1) 0%, rgba(255,232,121,1) 100%);
+}
+
+.border-1{
+    border: 2px solid black;
+}
+
+h1{
+    font-family: "Sriracha", cursive;
+    color: rgb(255, 221, 0);
+    -webkit-text-stroke: 3px rgb(81, 49, 15) 5px black;
+
+}
