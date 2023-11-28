@@ -8,7 +8,20 @@ background: linear-gradient(0deg, rgba(249,179,255,1) 0%, rgb(0, 20, 111) 100%);
 }
 
 
-
+#keyboard button{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    width: calc(100% / 9 - 5px);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(176, 189, 230);
+    margin: 0.5%;
+    padding-bottom: 1%;
+    padding-top:1%;
+    text-transform: uppercase;
+}
 
 h1{
     font-family: "Sriracha", cursive;
@@ -22,6 +35,32 @@ h1{
    max-width: 300px;
 }
 
+#Incorrect{
+    color: red;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.Word{
+    padding-top: 20%;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.Word .letter{
+    width: 28px;
+    border-bottom: 3px solid black;
+    justify-content: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.Word .letter.guessed{
+    border-color: transparent;
+    padding-left: 1%;
+}
+
 .btn-primary{
     background-color: rgb(212, 226, 252);
     color: black;
@@ -31,3 +70,18 @@ h1{
     font-family: 'Lato', sans-serif;
     margin-top: 3px
 }
+
+.content{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7) ;
+    display: none;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
