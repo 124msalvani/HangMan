@@ -79,7 +79,6 @@ const initGame = (button, clickedLetter) => {
     } else{
         //If clicked letter doesn't exist then update the wrongGuessCount and hangman image
         wrongGuessCount++;
-        console.log(wrongGuessCount);
         hangmanImage.src = "images/hang" + wrongGuessCount + ".png";
 
     }
